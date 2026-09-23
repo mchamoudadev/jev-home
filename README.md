@@ -4,6 +4,11 @@ Voice-controlled 3D smart home demo. Speech is transcribed in Chrome, and every
 command is decided by **TypeSafe Jev** (`typesafe/jev-1.13`) through OpenRouter's
 decisions endpoint (`/api/alpha/decisions`) in a single speculative fan-out call.
 
+## Somali voice prompt
+
+The voice-design prompt from the live demo: [prompts/somali-voice-prompt.md](prompts/somali-voice-prompt.md).
+The app's homepage also has a **Copy Somali voice prompt** button.
+
 ## Run
 
 ```bash

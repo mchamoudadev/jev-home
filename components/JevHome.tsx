@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import House3D from "./House3D";
+import CopyPromptButton from "./CopyPromptButton";
 import { applyCommands, touchedRooms } from "@/lib/apply";
 import {
   ROOM_IDS,
@@ -443,6 +444,8 @@ export default function JevHome() {
           <p>Chrome needs one click to allow the microphone and speaker. After that, everything is voice.</p>
         </div>
       )}
+      <CopyPromptButton />
+
       {micError && (
         <div className="overlay">
           <p className="error">{micError}</p>

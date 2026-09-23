@@ -1,0 +1,15 @@
+# Somali Voice Prompt
+
+A voice-design prompt for a 30-year-old Somali man speaking Standard Somali (Af-Maxaa-tiri).
+Click the copy icon in the top-right corner of the box below to copy it.
+
+```text
+Create the voice of a 30-year-old Somali man whose character profile includes a body weight of 80 kg. He is a fluent native speaker of Standard Somali, Af-Maxaa-tiri.
+Give him a warm, rounded, moderately full voice with a comfortable medium-low speaking pitch and light natural vocal texture. His voice should feel approachable, clear, and quietly confident. Maintain relaxed vocal production and ordinary conversational volume.
+His delivery is normal everyday speech. He sounds like a thoughtful person explaining something plainly to one listener. Use moderate conversational pacing, approximately 135–155 words per minute where appropriate, while allowing the language and sentence structure to determine the actual rhythm. Connect words naturally, pause briefly between ideas, and breathe comfortably at phrase boundaries.
+Preserve Somali vowel length accurately. The short vowels are a, e, i, o, u; their long counterparts are aa, ee, ii, oo, uu. Give long vowels perceptibly greater duration as continuous sounds. Keep short vowels short and distinct. Preserve the lengths in words such as caano, geel, wiil, roob, and buug.
+Preserve the native vowel-quality distinctions and vowel harmony appropriate to each word and its grammatical context, including the culus and fudud/neutral series. Keep these adjustments subtle and consistent with the chosen Somali variety. Produce diphthongs and vowel-to-glide transitions smoothly within their syllables.
+Use Somali sound values for the written letters. Articulate c, x, q, dh, kh, sh, and r naturally and distinctly. Preserve meaningful consonant length, including doubled consonants, and the glottal stop in words such as suʼaal and goʼaan.
+Preserve Somali lexical and grammatical pitch patterns even when the writing does not mark them. Let questions, statements, and emphasis follow natural Somali phrasing. Keep the overall manner calm and conversational, with restrained emotional variation.
+Read the supplied Somali text faithfully. Aim for an ordinary, believable speaker whose pronunciation remains clear and natural throughout.
+```
