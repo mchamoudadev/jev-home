@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import House3D from "./House3D";
 import { applyCommands, touchedRooms } from "@/lib/apply";
 import {
@@ -106,6 +106,12 @@ export default function JevHome() {
   const [micError, setMicError] = useState<string | null>(null);
   const [lastFinal, setLastFinal] = useState<{ text: string; verdict: string } | null>(null);
   const [recIssue, setRecIssue] = useState<string | null>(null);
+  // False in the server HTML, true once React has hydrated. A click before that is lost.
+  const hydrated = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
 
   const houseRef = useRef(house);
   const speaking = useRef(0);
@@ -431,8 +437,8 @@ export default function JevHome() {
 
       {!started && !micError && (
         <div className="overlay">
-          <button className="wake" onClick={start}>
-            🎙️ Wake Jev
+          <button className="wake" onClick={start} disabled={!hydrated}>
+            {hydrated ? "🎙️ Wake Jev" : "Loading…"}
           </button>
           <p>Chrome needs one click to allow the microphone and speaker. After that, everything is voice.</p>
         </div>
